@@ -9,10 +9,10 @@ const Sphere = dynamic(() => import('@/components/canvas/Sphere'), {
 const Page = ({ title }) => {
   useStore.setState({ title })
   return (
-    <>
+    <div className='h-screen'>
       <Sphere r3f />
       <Go />
-    </>
+    </div>
   )
 }
 

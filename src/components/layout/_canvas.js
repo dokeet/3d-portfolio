@@ -28,10 +28,10 @@ const LCanvas = ({ children }) => {
         near: 0.1,
         far: 1000,
       }}
-      // style={{
-      //   position: 'absolute',
-      //   top: 0,
-      // }}
+      style={{
+        position: 'absolute',
+        top: 0,
+      }}
       onCreated={({ events }) => {
         useStore.setState({ events })
       }}
